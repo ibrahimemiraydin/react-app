@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = ({ title }) => {
   return (
-    <header>
+    <header style={{ padding: '20px', textAlign: 'center', background: '#282c34', color: 'white' }}>
       <h1>{title}</h1>
     </header>
   );
